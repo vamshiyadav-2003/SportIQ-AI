@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.env
+
+# ChromaDB persistent storage / SQLite history (generated at runtime)
+backend/chroma_store/
+chroma_store/
+**/chroma_store/
+backend/quiz_history.db
+
+# Node
+node_modules/
+frontend/build/
+
+# OS
+.DS_Store
