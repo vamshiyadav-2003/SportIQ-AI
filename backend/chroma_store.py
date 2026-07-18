@@ -14,7 +14,7 @@ import os
 from pathlib import Path
 
 import chromadb
-from chromadb.utils import embedding_functions
+from chromadb.api.types import Documents, Embeddings, EmbeddingFunction
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -24,6 +24,25 @@ CHROMA_PATH = os.getenv("CHROMA_DB_PATH", "./chroma_store")
 EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "sentence-transformers/all-MiniLM-L6-v2")
 
 COLLECTION_NAME = "sports_quiz_database"
+
+class HuggingFaceServerlessEmbeddings(EmbeddingFunction):
+    def __init__(self, api_key: str = None, model_name: str = "sentence-transformers/all-MiniLM-L6-v2"):
+        self.model_name = model_name
+        self.api_url = f"https://router.huggingface.co/pipeline/feature-extraction/{model_name}"
+        self.headers = {}
+        if api_key:
+            self.headers["Authorization"] = f"Bearer {api_key}"
+
+    def __call__(self, input: Documents) -> Embeddings:
+        import requests
+        response = requests.post(
+            self.api_url,
+            headers=self.headers,
+            json={"inputs": input, "options": {"wait_for_model": True}}
+        )
+        if response.status_code != 200:
+            raise ValueError(f"Hugging Face API returned error ({response.status_code}): {response.text}")
+        return response.json()
 
 _client = chromadb.PersistentClient(path=CHROMA_PATH)
 
@@ -41,11 +60,11 @@ if not os.getenv("RENDER"):
 
 if _embedding_fn is None:
     hf_token = os.getenv("HF_API_KEY", "")
-    _embedding_fn = embedding_functions.HuggingFaceEmbeddingFunction(
+    _embedding_fn = HuggingFaceServerlessEmbeddings(
         api_key=hf_token if hf_token else None,
         model_name=EMBEDDING_MODEL
     )
-    print("[chroma_store] Using HuggingFace Serverless API embedding function.")
+    print("[chroma_store] Using HuggingFace Serverless API embedding function (router.huggingface.co).")
 
 
 def _chunk_text(text: str, chunk_size: int = 500, overlap: int = 50):
