@@ -39,7 +39,8 @@ def generate_quiz(sport: str, difficulty: str) -> dict:
             "and add your Groq API key before calling /generate-quiz."
         )
 
-    context_chunks = get_rag_context(sport, difficulty)
+    rag_data = get_rag_context(sport, difficulty)
+    context_chunks = rag_data["context"]
     user_prompt = build_quiz_user_prompt(sport, difficulty, context_chunks)
 
     completion = _client.chat.completions.create(
@@ -65,6 +66,10 @@ def generate_quiz(sport: str, difficulty: str) -> dict:
     # basic shape check so the frontend doesn't choke on a malformed response
     quiz_json.setdefault("sport", sport)
     quiz_json.setdefault("difficulty", difficulty)
+    quiz_json["sources"] = {
+        "local": rag_data["local"],
+        "web": rag_data["web"]
+    }
     if "questions" not in quiz_json or not isinstance(quiz_json["questions"], list):
         raise ValueError("Model response missing a valid 'questions' list.")
 

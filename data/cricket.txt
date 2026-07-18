@@ -1,15 +1,102 @@
-Cricket Knowledge Base
+Cricket Knowledge Base & Historical Facts
 
-Rohit Sharma holds the record for the highest individual score in ODI cricket, scoring 264 runs against Sri Lanka in 2014 at Kolkata.
-Sachin Tendulkar is the highest run-scorer in international cricket history, with over 34,000 runs across Test, ODI, and T20I formats combined.
-Virat Kohli has scored more ODI centuries than any other batsman in history.
-Muttiah Muralitharan is the leading wicket-taker in Test cricket history, with 800 wickets.
-Australia has won the most Cricket World Cup titles, lifting the trophy in 1987, 1999, 2003, 2007, and 2015.
-India won the 2011 Cricket World Cup on home soil, defeating Sri Lanka in the final at Mumbai.
-Australia defeated India in the final of the 2023 Cricket World Cup, held in India.
-The fastest century in ODI cricket was scored by AB de Villiers, in just 31 balls, against West Indies in 2015.
-Brian Lara holds the record for the highest individual score in Test cricket, with 400 runs (not out) against England in 2004.
-The T20 World Cup was first held in 2007, and was won by India, defeating Pakistan in the final.
-MS Dhoni is widely regarded as one of the greatest captains in Indian cricket history, leading India to the 2007 T20 World Cup, 2011 ODI World Cup, and 2013 Champions Trophy titles.
-Jasprit Bumrah is known for his unorthodox bowling action and has been ranked among the top fast bowlers in world cricket.
-The Duckworth-Lewis-Stern (DLS) method is used to calculate target scores in rain-affected limited-overs matches.
+1. Cricket is a bat-and-ball game played between two teams of eleven players on a field, at the center of which is a 22-yard (20-meter) pitch with a wicket at each end.
+2. The game originated in south-east England, likely in the late 16th century during the Tudor period.
+3. The first recorded reference to cricket being played by adults was in 1611, when two men in Sussex were prosecuted for playing cricket on Sunday instead of going to church.
+4. The laws of cricket were first codified in 1744 by the Marylebone Cricket Club (MCC) in London, which remains the custodian of the game's official rules.
+5. The first international cricket match was played between the USA and Canada in New York in September 1844, hosted at the St George's Cricket Club.
+6. The first official Test match began on March 15, 1877, played between England and Australia at the Melbourne Cricket Ground (MCG).
+7. The Ashes is the oldest and most famous Test cricket rivalry, played biennially between England and Australia since 1882.
+8. The term "The Ashes" originated after England lost to Australia at home for the first time in 1882, leading a British newspaper to print a mock obituary stating that English cricket had died and the ashes would be taken to Australia.
+9. Sir Donald Bradman of Australia is widely considered the greatest batsman of all time, retiring with a legendary Test batting average of 99.94.
+10. In his final Test innings in 1948 at The Oval, Bradman needed only 4 runs to achieve a career average of exactly 100, but he was bowled for a duck (0 runs) by Eric Hollies.
+11. Sachin Tendulkar of India is the highest run-scorer in international cricket history, scoring 34,357 runs across all international formats.
+12. Tendulkar holds the record for the most international centuries, scoring exactly 100 centuries (51 in Tests, 49 in ODIs) over a 24-year career.
+13. Tendulkar was the first player in history to score a double century (200 runs) in a One Day International (ODI) match, doing so against South Africa in Gwalior in 2010.
+14. Rohit Sharma of India holds the record for the highest individual score in an ODI match, scoring an astonishing 264 runs against Sri Lanka at Eden Gardens in Kolkata in 2014.
+15. Rohit Sharma is the only batsman to score three double-centuries in ODI cricket history.
+16. Virat Kohli of India holds the record for the most centuries in ODI cricket, surpassing Sachin Tendulkar's record of 49 by scoring his 50th ODI century at the 2023 Cricket World Cup.
+17. Muttiah Muralitharan of Sri Lanka is the leading wicket-taker in Test history, taking 800 wickets, and also holds the record for the most ODI wickets (534).
+18. Shane Warne of Australia is widely considered the greatest leg-spinner in history, taking 708 Test wickets. His first ball in Ashes cricket in 1993, which bowled Mike Gatting, is famously called the "Ball of the Century."
+19. Anil Kumble of India is one of only three bowlers to take all 10 wickets in a single Test innings, achieving this feat (10 for 74) against Pakistan in Delhi in 1999.
+20. Jim Laker of England was the first bowler to take 10 wickets in a Test innings, taking 10 for 53 (and 19 wickets in the match) against Australia at Old Trafford in 1956.
+21. Ajaz Patel of New Zealand is the third bowler to take 10 wickets in a Test innings, doing so against India in Mumbai in 2021.
+22. Brian Lara of the West Indies holds the record for the highest individual score in Test cricket, scoring 400 not out against England in Antigua in 2004.
+23. Brian Lara also holds the record for the highest individual score in first-class cricket, scoring 501 not out for Warwickshire against Durham in 1994.
+24. The first Cricket World Cup (ODI) was held in England in 1975, and was won by the West Indies, who defeated Australia in the final.
+25. Australia is the most successful country in Cricket World Cup history, winning the tournament a record 6 times (1987, 1999, 2003, 2007, 2015, and 2023).
+26. India has won the Cricket World Cup twice, first in 1983 under Kapil Dev, and second in 2011 under Mahendra Singh Dhoni.
+27. The 2019 Cricket World Cup final between England and New Zealand ended in a tie, and England won on a "boundary count" rule after the Super Over also ended in a tie.
+28. The International Cricket Council (ICC) is the global governing body of cricket, founded in 1909 as the Imperial Cricket Conference and headquartered in Dubai, UAE.
+29. A standard cricket pitch measures 22 yards (20.12 meters) long by 10 feet (3.05 meters) wide.
+30. The wickets consist of three wooden stumps topped by two wooden bails. The height of the stumps is 28 inches (71.12 cm).
+31. An over consists of six consecutive legal deliveries bowled by a single bowler from one end of the pitch.
+32. The "crease" is the white line painted on the pitch. The popping crease is located 4 feet (1.22 meters) in front of the stumps and determines if a batsman is out of their ground or if a bowler has bowled a front-foot no-ball.
+33. A batsman can be dismissed in 10 official ways: Bowled, Caught, Leg Before Wicket (LBW), Run Out, Stumped, Hit Wicket, Handled the Ball, Obstructing the Field, Hit the Ball Twice, and Timed Out.
+34. The "Handled the Ball" dismissal was merged into "Obstructing the Field" in the 2017 revision of the Laws of Cricket.
+35. Angelo Mathews of Sri Lanka was the first player in international cricket history to be dismissed "Timed Out", during a World Cup match against Bangladesh in 2023, after failing to prepare to face a ball within 2 minutes of the previous dismissal.
+36. Leg Before Wicket (LBW) occurs when the ball strikes any part of the batsman's body (usually the pads) and the umpire judges that the ball would have gone on to hit the stumps.
+37. A "no-ball" is a delivery that violates the rules (e.g., the bowler steps over the crease or bowls a full toss above waist height). It costs 1 run, doesn't count as a ball in the over, and in limited-overs cricket, awards a "Free Hit" on the next delivery.
+38. A "wide ball" is a delivery that passes too far from the batsman for them to play a normal stroke. It costs 1 run, does not count as a ball in the over, and must be re-bowled.
+39. The fastest recorded delivery in cricket history was bowled by Shoaib Akhtar of Pakistan, clocked at 161.3 km/h (100.2 mph) against England in the 2003 World Cup.
+40. Brett Lee of Australia and Shaun Tait of Australia have both recorded speeds of 161.1 km/h (100.1 mph), sharing the second spot.
+41. The first T20 International match was played between Australia and New Zealand in February 2005 at Eden Park in Auckland.
+42. The first ICC T20 World Cup was held in South Africa in 2007, and was won by India, who defeated Pakistan in a dramatic final in Johannesburg.
+43. Chris Gayle of the West Indies scored the first-ever century in T20 International cricket during the opening match of the 2007 T20 World Cup.
+44. Gayle holds the record for the highest individual score in T20 cricket, scoring 175 not out off 66 balls for Royal Challengers Bangalore in the IPL in 2013.
+45. The Indian Premier League (IPL) was founded in 2007 by the Board of Control for Cricket in India (BCCI) and began its inaugural season in 2008.
+46. MS Dhoni led the Chennai Super Kings to 5 IPL titles and is the only captain to win more than 100 matches in IPL history.
+47. Rohit Sharma has won 6 IPL titles as a player (5 as captain of Mumbai Indians, and 1 as a player with Deccan Chargers).
+48. Yuvraj Singh of India hit six sixes in a single over off Stuart Broad of England during the 2007 T20 World Cup, scoring the fastest half-century in T20 history in just 12 balls.
+49. Herschelle Gibbs of South Africa was the first player to hit six sixes in an over in international cricket, doing so against the Netherlands in the 2007 ODI World Cup.
+50. Sir Garfield Sobers of the West Indies was the first player in first-class cricket to hit six sixes in an over, playing for Nottinghamshire against Glamorgan in 1968.
+51. AB de Villiers of South Africa holds the record for the fastest ODI century, scoring a hundred off just 31 balls against the West Indies in Johannesburg in 2015.
+52. Corey Anderson of New Zealand held the record briefly before De Villiers, scoring an ODI century off 36 balls in 2014.
+53. The fastest century in Test cricket was scored by Brendon McCullum of New Zealand, in just 54 balls, against Australia in Christchurch in 2016.
+54. The longest Test match in history was the "Timeless Test" played between England and South Africa in Durban in 1939. It lasted 9 days and ended in a draw because the English team had to catch their boat home.
+55. Women's cricket was first recorded in England in 1745. The first Women's Cricket World Cup was held in 1973, two years before the men's tournament began.
+56. Australia's women's cricket team is the most dominant in history, winning 7 Women's ODI World Cup titles and 6 Women's T20 World Cup titles.
+57. Mithali Raj of India is the highest run-scorer in women's international cricket and the only female cricketer to surpass 7,000 runs in ODIs.
+58. Jhulan Goswami of India is the leading wicket-taker in women's ODI history, taking over 250 wickets.
+59. The Decision Review System (DRS) was first introduced in Test cricket in 2008 to review umpires' decisions using technologies like Hawk-Eye, Hot Spot, and UltraEdge.
+60. "Umpire's Call" is a DRS rule where the on-field umpire's original decision stands if the ball-tracking prediction is borderline or within small margins.
+61. The "Mankad" dismissal occurs when a bowler runs out the non-striker who leaves their crease before the ball is delivered. It is named after Indian bowler Vinoo Mankad, who dismissed Australia's Bill Brown this way in 1947.
+62. The MCC officially moved the Mankad dismissal from the "Unfair Play" section to the "Run Out" section of the laws in 2022, legitimizing it.
+63. A cricket ball weighs between 5.5 and 5.75 ounces (155.9 to 163 grams) in men's cricket, and is slightly smaller and lighter in women's and junior cricket.
+64. Red cricket balls are used in traditional Test matches, white balls are used in limited-overs matches under floodlights, and pink balls are used in day-night Test matches.
+65. The first day-night Test match was played between Australia and New Zealand at the Adelaide Oval in November 2015, using a pink ball.
+66. Courtney Walsh of the West Indies was the first bowler in Test history to take 500 wickets, reaching the milestone in 2001.
+67. Jimmy Anderson of England holds the record for the most wickets taken by a fast bowler in Test history, taking over 700 wickets.
+68. Alastair Cook is the youngest player to score 10,000 Test runs and holds the record for the most Test runs scored by an English batsman.
+69. The IPL's highest team score is 287/3, scored by Sunrisers Hyderabad against Royal Challengers Bengaluru in 2024.
+70. The lowest team score in Test history is 26 runs, recorded by New Zealand against England in Auckland in 1955.
+71. The lowest team score in ODI history is 35 runs, recorded by both Zimbabwe (against Sri Lanka in 2004) and USA (against Nepal in 2020).
+72. A "Super Over" is used to break a tie in limited-overs cricket. Each team faces one over (six balls) from one bowler, and the team that scores the most runs wins.
+73. If a batsman scores 100 runs in an innings, it is called a "century." Scoring 50 runs is called a "half-century."
+74. A "duck" is when a batsman is dismissed without scoring any runs. If they are dismissed on the very first ball they face, it is called a "Golden Duck."
+75. If a batsman is dismissed on the first ball of the match, it is called a "Platinum Duck" or "Diamond Duck" (sometimes defined as being run out without facing a delivery).
+76. A "hat-trick" occurs when a bowler takes three wickets with three consecutive deliveries.
+77. The first Test hat-trick was taken by Fred Spofforth of Australia against England at the MCG in 1879.
+78. Lasith Malinga of Sri Lanka is the only bowler in international cricket to take four wickets in four consecutive balls twice (against South Africa in the 2007 World Cup, and against New Zealand in a T20I in 2019).
+79. Malinga is also the leading wicket-taker in T20 World Cup history.
+80. The "follow-on" rule in Test cricket allows the team batting first to force the team batting second to bat again immediately if they fail to score within 200 runs of the first team's total.
+81. Only three teams have ever won a Test match after being forced to follow on: England (twice against Australia) and India (against Australia in the famous Kolkata Test of 2001).
+82. In 2001, VVS Laxman (281) and Rahul Dravid (180) put on a historic 376-run partnership to help India win the Kolkata Test against Australia after following on.
+83. The longest partnership by runs in Test history is 624 runs, scored by Mahela Jayawardene and Kumar Sangakkara for Sri Lanka against South Africa in Colombo in 2006.
+84. Kumar Sangakkara of Sri Lanka scored four consecutive centuries in the 2015 Cricket World Cup, a record for the tournament.
+85. The "Lord's Cricket Ground" in London is commonly known as the "Home of Cricket."
+86. The first cricket match played under floodlights was an exhibition match in Sydney, Australia, in 1978.
+87. The "inside edge" of the bat causing the ball to hit the stumps is colloquially known as a "chop-on" or "play-on."
+88. "Byes" are runs scored when a delivery passes the batsman and the wicketkeeper without touching the bat or body.
+89. "Leg byes" are runs scored when the ball strikes the batsman's body (but not the bat or glove) while they are attempting a shot.
+90. The "free hit" rule was first introduced in T20Is in 2007 and extended to ODIs in 2015. It ensures that the batsman cannot be dismissed on the next delivery except by run out, obstructing the field, or hitting the ball twice.
+91. A "maiden over" is an over in which no runs are scored off the bat, and no wides or no-balls are bowled.
+92. Bapu Nadkarni of India holds the record for the most consecutive maiden overs bowled in a Test match, bowling 21 consecutive maidens (131 consecutive dot balls) against England in Chennai in 1964.
+93. The "sweep shot" is a cross-batted shot played on one knee, hitting the ball to the leg side, commonly used against spin bowlers.
+94. The "reverse sweep" is played by reversing the hands and stance to hit the ball to the off side, popularized by players like Andy Flower and Glenn Maxwell.
+95. The "dilscoop" is a shot where the batsman knee-bends and scoops the ball directly over the wicketkeeper's head, invented by Sri Lanka's Tillakaratne Dilshan.
+96. The "helicopter shot" is a wrist-dominant stroke played to hit full-length deliveries (yorkers) for six, popularized by MS Dhoni.
+97. Sir Richard Hadlee of New Zealand was the first bowler in Test history to take 400 wickets, doing so in 1990.
+98. Wasim Akram of Pakistan is widely considered the greatest left-arm fast bowler in history, pioneered "reverse swing" with the old ball, and took 502 ODI wickets.
+99. The "Kookaburra" ball is manufactured in Australia and is the standard ball used in limited-overs cricket and Test matches in most countries. England uses the "Duke" ball, and India uses the "SG" ball.
+100. Cricket has been included in the Olympic Games only once, in the 1900 Paris Games, where Great Britain won the gold medal by defeating France. The sport is scheduled to return to the Olympics at the 2028 Los Angeles Games.

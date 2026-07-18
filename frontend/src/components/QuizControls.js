@@ -1,6 +1,6 @@
 import React from "react";
 
-const SPORTS = ["Cricket", "Football", "Tennis"];
+const SPORTS = ["Cricket", "Football", "Tennis", "Basketball", "Badminton", "Volleyball"];
 const DIFFICULTIES = ["Easy", "Medium", "Hard"];
 
 export default function QuizControls({

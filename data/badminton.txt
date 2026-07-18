@@ -1,0 +1,102 @@
+Badminton Knowledge Base & Historical Facts
+
+1. Badminton is a racquet sport played using racquets to hit a shuttlecock across a net.
+2. The game can be played as "singles" (with one player per side) and "doubles" (with two players per side).
+3. The origins of badminton can be traced back over 2,000 years to the ancient game of battledore and shuttlecock played in Greece, China, and India.
+4. The modern game of badminton was developed in British India in the mid-19th century, where it was originally called "Poona" after the town of Pune.
+5. British army officers stationed in India introduced the rules of Poona to England in the 1870s.
+6. The sport was named "badminton" in 1873 at Badminton House in Gloucestershire, the ancestral home of the Duke of Beaufort, where the game was played at a lawn party.
+7. The first official rules of badminton were written and published by the Badminton Association of England in 1893.
+8. The International Badminton Federation (IBF) was founded in 1934 by nine founding member countries, including England, Canada, Denmark, France, Ireland, Netherlands, New Zealand, Scotland, and Wales.
+9. In 2005, the International Badminton Federation changed its name to the Badminton World Federation (BWF), which serves as the international governing body today.
+10. The BWF is headquartered in Kuala Lumpur, Malaysia, reflecting the sport's massive popularity in East and Southeast Asia.
+11. Badminton became an official Olympic sport at the 1992 Barcelona Olympics, featuring singles and doubles events for both men and women.
+12. The mixed doubles event was introduced to the Olympic games at the 1996 Atlanta Olympics, making badminton one of the few sports to feature mixed-gender competition.
+13. The Thomas Cup, first held in 1948-1949, is the premier international men's team championship in badminton, held every two years.
+14. The Uber Cup, first held in 1956-1957, is the premier international women's team championship in badminton, running alongside the Thomas Cup.
+15. The Sudirman Cup, established in 1989, is the world mixed team championship, held every two years and named after Dick Sudirman, the founder of the Football Association of Indonesia and Indonesian badminton pioneer.
+16. Indonesia is a historical powerhouse in badminton, with players like Rudy Hartono winning the prestigious All England Open Men's Singles title a record 8 times.
+17. The All England Open Badminton Championships, first held in 1899, is the world's oldest badminton tournament and was considered the unofficial world championship before 1977.
+18. The BWF World Championships were first held in 1977 in Malmö, Sweden, and are held annually except during Olympic years.
+19. China is the most successful nation in BWF World Championship history, winning over 60 gold medals across various disciplines.
+20. Lin Dan of China, nicknamed "Super Dan", is widely regarded as the greatest badminton player of all time.
+21. Lin Dan is the only player to complete the "Super Grand Slam" by winning all nine major titles in badminton, including the Olympics, World Championships, World Cup, Thomas Cup, Sudirman Cup, Super Series Finals, All England Open, Asian Games, and Asian Championships.
+22. Lin Dan won back-to-back Olympic gold medals in men's singles at the 2008 Beijing Olympics and 2012 London Olympics, both times defeating his legendary rival Lee Chong Wei of Malaysia.
+23. Lee Chong Wei is one of Malaysia's greatest athletes, holding the world number one ranking for a record 349 weeks, including 199 consecutive weeks from 2008 to 2012.
+24. Lee Chong Wei won three consecutive Olympic silver medals in men's singles (2008, 2012, 2016) and three World Championship silver medals.
+25. Taufik Hidayat of Indonesia is famous for his exceptionally powerful backhand smash, winning the men's singles gold medal at the 2004 Athens Olympics and the World Championship in 2005.
+26. Peter Gade of Denmark is one of the most successful European badminton players, reaching world number one and winning 5 European Championship singles titles.
+27. Lee Yong-dae of South Korea is famous for his exceptional defensive skills and net play, winning the mixed doubles gold medal at the 2008 Beijing Olympics and men's doubles gold in the World Championships.
+28. Carolina Marin of Spain broke Asian dominance in women's singles by winning the gold medal at the 2016 Rio Olympics and three World Championship titles (2014, 2015, 2018).
+29. Tai Tzu-ying of Taiwan is known for her highly deceptive shots and creative playstyle, holding the record for the most weeks ranked as women's singles world number one in BWF history.
+30. The shuttlecock (also known as a bird or birdie) is the projectile used in badminton, designed with an open conical shape.
+31. A traditional shuttlecock consists of 16 goose or duck feathers fixed into a rounded cork base covered with thin leather.
+32. The best feathers for a high-quality shuttlecock are harvested from the left wing of a goose, as this wing shape creates a more aerodynamic spin.
+33. Synthetic or nylon shuttlecocks are commonly used by recreational players because they are much more durable and cheaper than feather shuttlecocks, though they offer less control.
+34. A standard feather shuttlecock weighs between 4.74 and 5.50 grams (0.167 to 0.194 ounces).
+35. The speed of a shuttlecock is highly sensitive to air temperature, humidity, and altitude, which is why different speed grades are used depending on local court conditions.
+36. Badminton holds the record for being the fastest racquet sport in the world, with shuttlecock speeds exceeding 400 km/h (250 mph).
+37. The fastest recorded smash in a competition belongs to Satwiksairaj Rankireddy of India, who hit a smash at an astonishing speed of 565 km/h (351 mph) in a controlled test in 2023.
+38. In official tournaments, Malaysia's Pearly Tan holds the female record for the fastest smash, clocked at 438 km/h (272 mph).
+39. A standard badminton court is rectangular and measures 13.4 meters (44 feet) long by 6.1 meters (20 feet) wide for doubles.
+40. For singles matches, the court width is reduced to 5.18 meters (17 feet).
+41. The net is positioned at the center of the court and is 1.55 meters (5 feet 1 inch) high at the posts, and 1.524 meters (5 feet) high in the center.
+42. The "rally point system" was adopted by the BWF in 2006, replacing the old system where only the serving side could score points.
+43. Under the current scoring system, a match is played to the best of 3 games, with each game won by the first side to reach 21 points.
+44. If the score reaches 20-all, the side that gains a 2-point lead first wins the game (e.g., 22-20).
+45. If the score reaches 29-all, the side that scores the 30th point wins the game (30-29 is the maximum possible score).
+46. A player serves from the right service court when their score is even (0, 2, 4...), and from the left service court when their score is odd (1, 3, 5...).
+47. The serve must be hit diagonally across the net into the opponent's corresponding service court.
+48. Under current BWF rules, at the instant of being hit by the server's racquet, the entire shuttlecock must be below 1.15 meters (3.77 feet) from the surface of the court.
+49. A "let" is called by the umpire to halt play for an unforeseen or accidental occurrence, such as a shuttlecock getting stuck in the net or a ball from another court entering the play area. When a let is called, the serve is replayed.
+50. A "fault" is a violation of the rules that results in a point for the opponent, such as hitting the shuttlecock out of bounds, touching the net with the body or racquet, or hitting the shuttlecock twice.
+51. A "carry" (or double hit) occurs when a player hits the shuttlecock twice in succession or catches it on the racquet face before throwing it over. This is a fault.
+52. The "drive" is a flat, fast shot hit horizontally over the net, commonly used in doubles to force the opponents into defensive positions.
+53. The "drop shot" is a soft, deceptive stroke hit from the back of the court that barely clears the net and drops quickly in the opponent's forecourt.
+54. The "smash" is a powerful, downward overhead shot aimed to hit the court floor as fast as possible, serving as the main offensive weapon in badminton.
+55. The "clear" (or lob) is a high, deep shot directed to the back of the opponent's court, used to buy time and push the opponent out of position.
+56. The "net kill" is a quick, sharp downward strike executed close to the net to finish the rally when the opponent plays a weak net shot.
+57. Badminton racquets are extremely lightweight, typically weighing between 70 and 95 grams (excluding strings and grips).
+58. Modern racquets are made of carbon fiber composite materials (graphite), which provide high strength, rigidity, and lightweight performance.
+59. Badminton string tension usually ranges from 20 to 30 pounds (9 to 13 kg) for professional players, with higher tension providing more control but less power and durability.
+60. The All England Open was dominated by European nations like Denmark and England in its early history, before Asian countries rose to dominance in the 1960s.
+61. The legendary Danish player Erland Kops won 7 All England men's singles titles in the late 1950s and 1960s, helping popularize the sport in Europe.
+62. China made a clean sweep by winning all five gold medals at the 2012 London Olympics (Men's Singles, Women's Singles, Men's Doubles, Women's Doubles, Mixed Doubles), the only nation to do so.
+63. Park Joo-bong of South Korea is one of the most successful doubles players in history, winning 9 World Championship titles and 1 Olympic gold medal.
+64. The "backhand" is a stroke hit with the back of the hand facing the direction of the movement, which is generally harder to master than the forehand.
+65. Footwork is considered the most critical fundamental skill in badminton, as players must move quickly and change directions constantly while maintaining balance.
+66. An interval of up to 60 seconds is allowed during each game when the leading score reaches 11 points, allowing players to rest and receive coaching.
+67. An interval of up to 120 seconds (2 minutes) is allowed between the first and second games, and between the second and third games.
+68. If a player touches the net with their body, clothing, or racquet during a rally, it is ruled a net touch fault, and the point is awarded to the opponent.
+69. If the shuttlecock hits the net and falls on the striker's side, it is a fault. If it hits the net and falls on the opponent's side, it is in play (except during a serve, where it must land in the service court).
+70. Badminton is considered an excellent cardiovascular workout, with players running up to 6 kilometers (3.7 miles) in a single two-game match.
+71. The first national badminton association was the Canadian Badminton Association, founded in 1921.
+72. Japan's Akane Yamaguchi and Nozomi Okuhara established a famous rivalry in women's singles, known for their long rallies, extreme stamina, and defensive court coverage.
+73. Viktor Axelsen of Denmark won the men's singles gold medal at the 2020 Tokyo Olympics, breaking a string of Asian victories in the men's singles event since 1996.
+74. Axelsen stands 1.94 meters (6 feet 4 inches) tall, using his height to generate steep angles on his smashes.
+75. The "deception" shot is a technique where a player shapes their body and swing to look like one shot (e.g., a smash) but plays another (e.g., a drop shot) at the last fraction of a second.
+76. In doubles, the two main court positions are "side-by-side" (used for defending against smashes) and "front-and-back" (used when attacking).
+77. The service court lines in doubles are wider but shorter than in singles. The doubles service line is 0.76 meters (2.5 feet) closer to the net than the back boundary line.
+78. The "flick serve" is a deceptive serve in doubles where the server starts with a short service motion but uses a quick wrist snap to send the shuttlecock high and deep over the receiver.
+79. The "drive serve" is a flat, fast serve hit directly at the receiver to catch them off guard, though it is risky if the opponent reacts quickly.
+80. A badminton line judge is responsible for deciding whether a shuttlecock lands "in" or "out" of the lines, communicating their decision with hand signals.
+81. The "BWF Instant Review System" (similar to Hawk-Eye) was introduced in 2013, allowing players to challenge line calls using high-speed camera tracking.
+82. Each player/pair is allowed two unsuccessful challenges per match. If the challenge is successful, they retain the challenge.
+83. The longest match in badminton history lasted 2 hours and 41 minutes, played between Kurumi Yonao/Naoko Fukuman of Japan and Nitya Krishinda Maheswari/Greysia Polii of Indonesia at the 2016 Asian Championships.
+84. An "ace" is a service that lands directly in the opponent's court without touching their racquet, though it is rare in professional badminton due to high defensive standards.
+85. The "wood shot" was once a fault, but under modern rules, if the shuttlecock hits the frame (wood/graphite) of the racquet and goes over, it is ruled a legal shot.
+86. A player is not allowed to cross their racquet over the net to hit the shuttlecock, though they can follow through over the net as long as the initial contact was made on their side.
+87. If a shuttlecock hits a player's body or clothing, it is a fault, even if it was going out of bounds anyway.
+88. Susi Susanti of Indonesia won the women's singles gold medal at the 1992 Barcelona Olympics, which was Indonesia's first-ever Olympic gold medal in any sport.
+89. Susanti's husband, Alan Budikusuma, won the men's singles gold medal at the same Olympics, earning them the nickname "The Olympic Golden Couple."
+90. The BWF Hall of Fame has honored over 70 legendary players and contributors since its creation in 1996.
+91. The "grip" of a racquet must be kept dry, as sweat can cause the racquet to slip. Players use towels, replacement grips, or powder during matches.
+92. The "court sweat wipe" is a request made by players to the umpire to dry wet spots on the floor caused by sweat, preventing injuries from slipping.
+93. Saina Nehwal of India won the bronze medal at the 2012 London Olympics, making her the first Indian badminton player to win an Olympic medal.
+94. PV Sindhu of India won back-to-back Olympic medals, securing silver at the 2016 Rio Olympics and bronze at the 2020 Tokyo Olympics.
+95. Sindhu won the BWF World Championship gold medal in 2019, defeating Japan's Nozomi Okuhara in a dominant performance.
+96. An umpire can issue a "yellow card" to a player as a warning for minor misconduct, such as delaying the game or receiving coaching outside intervals.
+97. A "red card" is issued for repeated misconduct, resulting in a fault and awarding a point to the opponent.
+98. A "black card" is the ultimate penalty, resulting in immediate disqualification from the match and tournament for severe unsportsmanlike behavior.
+99. The "BWF World Tour" is divided into tiers: World Tour Finals, Super 1000, Super 750, Super 500, Super 300, and Super 100, which determine ranking points and prize money.
+100. The total prize money for the BWF World Tour Finals exceeds $2 million, making it the most lucrative tournament in the sport.

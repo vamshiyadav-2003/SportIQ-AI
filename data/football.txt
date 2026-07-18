@@ -1,14 +1,102 @@
-Football Knowledge Base
+Football Knowledge Base & Historical Facts
 
-Brazil has won the FIFA World Cup a record five times, in 1958, 1962, 1970, 1994, and 2002.
-The first FIFA World Cup was held in Uruguay in 1930, and was won by the host nation.
-Lionel Messi won the FIFA World Cup with Argentina in 2022, defeating France on penalties in the final.
-Cristiano Ronaldo is one of the top goal scorers in football history across club and international competitions.
-Germany has won the World Cup four times, most recently in 2014, defeating Argentina in the final.
-The FIFA World Cup is held every four years and is the most widely viewed sporting event in the world.
-Pele won three World Cup titles with Brazil, in 1958, 1962, and 1970, and remains a symbol of Brazilian football excellence.
-The UEFA Champions League is Europe's premier club football competition, contested annually by top clubs from European domestic leagues.
-Real Madrid has won the UEFA Champions League a record number of times among European clubs.
-The Ballon d'Or is an annual award given to the player considered to have performed best over the previous year.
-France won the FIFA World Cup in 2018, defeating Croatia in the final held in Russia.
-The offside rule states that an attacking player is offside if they are nearer to the opponent's goal line than both the ball and the second-last opponent when the ball is played to them.
+1. Association football, commonly known as football or soccer, is a sport played between two teams of eleven players on a rectangular field with a goal at each end.
+2. Modern football rules were first codified in England in 1863 by the Football Association (FA), which separated the game from rugby football.
+3. The oldest football club in the world is Sheffield F.C., founded in Sheffield, England, in 1857.
+4. The first official international football match was played in Glasgow in 1872 between Scotland and England, ending in a 0-0 draw.
+5. The FA Cup, first played in 1871-1872, is the oldest national football competition in the world.
+6. FIFA (Fédération Internationale de Football Association), the international governing body for football, was founded in Paris, France, on May 21, 1904.
+7. The first FIFA World Cup was held in Uruguay in 1930, featuring 13 teams, and was won by the host nation, Uruguay, who defeated Argentina in the final.
+8. Brazil has won the most FIFA World Cup titles, lifting the trophy a record 5 times (1958, 1962, 1970, 1994, and 2002).
+9. Germany and Italy have both won the World Cup 4 times.
+10. The Jules Rimet Trophy, the original World Cup trophy, was named after Jules Rimet, the FIFA president who helped organize the first tournament.
+11. The original trophy was stolen in England in 1966 and found by a dog named Pickles, and was later stolen again in Brazil in 1983 and never recovered.
+12. Pelé of Brazil is widely considered one of the greatest football players of all time, and is the only player to win three FIFA World Cups (1958, 1962, and 1970).
+13. Pelé scored 1,281 goals in 1,363 games during his career (including friendlies), a record recognized by FIFA.
+14. Diego Maradona of Argentina is a football legend famous for the "Hand of God" goal and the "Goal of the Century," both scored against England in the 1986 World Cup quarter-final, which Argentina won.
+15. Lionel Messi of Argentina has won a record 8 Ballon d'Or awards, the annual trophy given to the world's best player.
+16. Messi led Argentina to victory in the 2022 FIFA World Cup in Qatar, defeating France in a dramatic penalty shootout.
+17. Cristiano Ronaldo of Portugal has won 5 Ballon d'Or awards and holds the record for the most goals scored in international men's football history (surpassing 130 goals).
+18. Ronaldo also holds the record for the most goals scored in UEFA Champions League history.
+19. The UEFA Champions League, originally named the European Cup and established in 1955, is the premier European club football competition.
+20. Real Madrid is the most successful club in European Cup/Champions League history, winning the title a record 15 times.
+21. The first European Cup final in 1956 was won by Real Madrid, who defeated Reims 4-3 in Paris.
+22. A standard football pitch measures 100 to 110 meters (110-120 yards) long by 64 to 75 meters (70-80 yards) wide for international matches.
+23. The goalposts are 8 yards (7.32 meters) wide and 8 feet (2.44 meters) high.
+24. A standard football match consists of two halves of 45 minutes each, totaling 90 minutes of play.
+25. "Injury time" or "stoppage time" is added to the end of each half by the referee to compensate for time lost due to substitutions, injuries, or delays.
+26. If a knockout match is tied after 90 minutes, it enters "extra time," consisting of two halves of 15 minutes each. If still tied, it is decided by a penalty shootout.
+27. The "golden goal" rule, where the first team to score in extra time wins immediately, was used in the 1990s and early 2000s before being phased out.
+28. A team is allowed 11 players on the pitch, one of whom must be the goalkeeper.
+29. Goalkeepers are the only players allowed to handle the ball with their hands and arms, but only within their own penalty area (the 18-yard box).
+30. The "penalty area" extends 18 yards (16.5 meters) from the goalposts, and fouls committed by the defending team inside this area result in a penalty kick.
+31. The "penalty spot" is located 12 yards (10.97 meters) from the center of the goal.
+32. The "offside rule" states that an attacking player is in an offside position if they are nearer to the opponent's goal line than both the ball and the second-last opponent (usually the last defender) at the moment the ball is played to them.
+33. A player cannot be offside directly from a throw-in, goal kick, or corner kick.
+34. Yellow cards were introduced at the 1970 World Cup to signal a formal caution for unsporting behavior, dissent, or persistent infringement.
+35. Red cards were also introduced in 1970 to signal sending off for serious foul play, violent conduct, or receiving two yellow cards in the same match.
+36. The first player to receive a red card in a World Cup match was Carlos Caszely of Chile, who was sent off against West Germany in 1974.
+37. The "fastest red card" in World Cup history was given to Jose Batista of Uruguay, who was sent off after just 56 seconds against Scotland in 1986.
+38. The "fastest goal" in World Cup history was scored by Hakan Sukur of Turkey, who scored in 11 seconds against South Korea in the 2002 third-place match.
+39. Miroslav Klose of Germany is the all-time leading goalscorer in FIFA World Cup history, scoring 16 goals across four tournaments (2002-2014).
+40. Just Fontaine of France holds the record for the most goals scored in a single World Cup tournament, scoring 13 goals in the 1958 World Cup in Sweden.
+41. The first Copa America, the oldest international continental football competition, was held in Argentina in 1916 and was won by Uruguay.
+42. Argentina and Uruguay share the record for the most Copa America titles, with 15 titles each.
+43. The UEFA European Championship (commonly known as the Euros) was first held in 1960 and was won by the Soviet Union.
+44. Germany and Spain share the record for the most Euros titles, with 3 titles each.
+45. The "Catenaccio" system is a famous defensive tactical system focusing on a highly organized backline and a sweeper, popularized by Italian clubs like Inter Milan and the Italian national team in the 1960s.
+46. "Total Football" is an influential tactical theory developed in the Netherlands in the 1970s, where any outfield player can take over the role of any other player in the team.
+47. Johan Cruyff is the legendary figurehead of Total Football, leading Ajax and the Netherlands national team to major success and winning three Ballon d'Or awards.
+48. Rinus Michels, who coached Cruyff at Ajax and the Netherlands, was named "Coach of the Century" by FIFA in 1999 for developing Total Football.
+49. The "Tiki-Taka" style is a tactical system characterized by short passing, movement, and working the ball through various channels, popularized by Pep Guardiola's Barcelona and the Spanish national team (2008-2012).
+50. Spain became the first and only team to win three consecutive major international tournaments: Euro 2008, World Cup 2010, and Euro 2012.
+51. The "MLS" (Major League Soccer) is the premier professional soccer league in the United States and Canada, beginning its inaugural season in 1996.
+52. The English Premier League (EPL) was formed in February 1992, breaking away from the Football League to capitalize on lucrative television rights.
+53. Manchester United is the most successful club in English top-flight history, winning 20 league titles (13 under manager Sir Alex Ferguson).
+54. Sir Alex Ferguson is the most decorated manager in football history, winning 38 trophies during his 26-year tenure at Manchester United.
+55. Arsenal F.C. completed the 2003-2004 Premier League season undefeated (26 wins, 12 draws), earning them the nickname "The Invincibles."
+56. The Italian Serie A is famous for its tactical discipline and was dominated by Juventus, AC Milan, and Inter Milan.
+57. AC Milan went undefeated for 58 consecutive Serie A matches between 1991 and 1993, a record in top European leagues.
+58. The German Bundesliga was founded in 1963, and Bayern Munich is its most successful club, winning over 30 league titles.
+59. A "hat-trick" in football occurs when a player scores three goals in a single game.
+60. The "perfect hat-trick" is scored when a player scores one goal with their right foot, one with their left foot, and one with their head.
+61. Sadio Mane holds the record for the fastest Premier League hat-trick, scoring three goals in just 2 minutes and 56 seconds for Southampton against Aston Villa in 2015.
+62. The "transfer fee" is the money paid by one club to another to buy a player who is under contract.
+63. Neymar of Brazil holds the record for the most expensive transfer in football history, moving from Barcelona to Paris Saint-Germain for a record fee of €222 million in 2017.
+64. The "Bosman ruling" in 1995 allowed professional players in the European Union to move to another club for free at the end of their contract, revolutionizing player power and transfer markets.
+65. Women's football was banned by the English FA from 1921 to 1971, which severely restricted its development in Europe.
+66. The first official FIFA Women's World Cup was held in China in 1991 and was won by the United States, who defeated Norway in the final.
+67. The United States Women's National Team (USWNT) is the most successful team in Women's World Cup history, winning the title 4 times (1991, 1999, 2015, and 2019).
+68. Marta of Brazil is the all-time leading goalscorer in FIFA World Cup history (men's or women's), scoring 17 goals across six tournaments.
+69. Marta has been named FIFA World Player of the Year a record 6 times.
+70. The "Panenka penalty" is a technique where the kicker chips the ball softly down the center of the goal, assuming the goalkeeper will dive to one side. It is named after Antonin Panenka, who scored the winning penalty for Czechoslovakia against West Germany in the Euro 1976 final.
+71. The "rabona" is a method of kicking the football where the kicking leg is crossed behind the back of the standing leg, used to cross or shoot when the ball is on the player's weaker side.
+72. The "bicycle kick" (or overhead kick) is an acrobatic strike where a player throws their body into the air and performs a shearing motion to strike the ball backward over their head.
+73. The "scorpian kick" is a rare defensive or offensive strike where a player dives forward and kicks the ball over their head using their heels, famously executed by Colombian goalkeeper Rene Higuita in 1995.
+74. Rene Higuita was nicknamed "El Loco" (The Madman) for his risky playstyle, often dribbling the ball out of his box into the midfield.
+75. The Video Assistant Referee (VAR) was first written into the Laws of the Game in 2018, allowing referees to review video replays for clear errors regarding goals, penalties, red cards, and mistaken identity.
+76. The "offside technology" was upgraded at the 2022 World Cup to "semi-automated offside," using 12 tracking cameras and a sensor in the ball to detect offside positions instantly.
+77. The "treble" is achieved when a club wins three major trophies in a single season, usually the national league, the primary national cup, and the continental championship.
+78. Celtic F.C. of Scotland was the first club to win the treble, doing so in 1967, and actually won a quadruple (including the Scottish League Cup).
+79. Manchester United (1999) and Manchester City (2023) are the only English clubs to win the continental treble.
+80. Pep Guardiola is the only manager to win the continental treble twice, doing so with Barcelona in 2009 and Manchester City in 2023.
+81. The "super cup" is a one-off match played at the start of a season between the winners of the league and the national cup (e.g., FA Community Shield, Supercopa de España).
+82. The Copa Libertadores, established in 1960, is the premier South American club football competition.
+83. Independiente of Argentina is the most successful club in Copa Libertadores history, winning the title 7 times.
+84. The "superclasico" is the fierce rivalry between Boca Juniors and River Plate, the two biggest clubs in Buenos Aires, Argentina.
+85. The "El Clasico" is the match played between Spanish rivals Real Madrid and Barcelona, which is one of the most-watched club matches in the world.
+86. A "clean sheet" occurs when a team or goalkeeper prevents the opposition from scoring any goals during a match.
+87. Lev Yashin of the Soviet Union, nicknamed the "Black Spider" for his reflexes and black jersey, is widely considered the greatest goalkeeper in history and remains the only goalkeeper to win the Ballon d'Or (in 1963).
+88. The "golden boot" is awarded to the top goalscorer in a league or tournament.
+89. The "golden glove" is awarded to the goalkeeper who keeps the most clean sheets or is voted the best in a tournament.
+90. The first goal-line technology (Hawk-Eye and GoalRef) was tested and approved by FIFA in 2012, and was used at the 2014 World Cup in Brazil to determine if the ball fully crossed the goal line.
+91. A standard football must be inflated to a pressure of 0.6 to 1.1 atmospheres at sea level.
+92. The "corner kick" is awarded when the ball passes completely over the defending team's goal line (excluding between the posts) having last been touched by a defender.
+93. A "goal kick" is awarded when the ball passes completely over the attacking team's goal line (excluding between the posts) having last been touched by an attacker.
+94. A "throw-in" is used to restart play when the ball goes out over the sideline. The player must throw the ball using both hands from behind and over their head, keeping both feet on the ground.
+95. If a player touches the ball with their hand or arm, it is a foul (handball), unless their arm is in a natural position or they are the goalkeeper inside their box.
+96. An "own goal" is scored when a player accidentally kicks or deflects the ball into their own team's net, awarding a goal to the opponent.
+97. The "FIFA Club World Cup" is an international tournament featuring the champions from each of FIFA's six continental confederations, first held in 2000.
+98. Real Madrid holds the record for the most FIFA Club World Cup titles, winning the tournament 5 times.
+99. A "free kick" can be direct (where the kicker can score directly) or indirect (where another player must touch the ball before a goal can be scored).
+100. Football made its first Olympic appearance at the 1900 Paris Games as an exhibition sport, and has been played in every Summer Olympics since, except the 1932 Los Angeles Games.

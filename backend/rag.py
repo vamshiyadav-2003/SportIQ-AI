@@ -11,7 +11,7 @@ from chroma_store import retrieve_context
 from search import web_search_snippets
 
 
-def get_rag_context(sport: str, difficulty: str) -> list[str]:
+def get_rag_context(sport: str, difficulty: str) -> dict:
     query = f"{sport} facts records statistics {difficulty} quiz questions"
 
     local_chunks = retrieve_context(sport=sport, query=query, n_results=5)
@@ -26,4 +26,8 @@ def get_rag_context(sport: str, difficulty: str) -> list[str]:
             f"but state clearly this is general knowledge and not sourced context."
         ]
 
-    return combined
+    return {
+        "context": combined,
+        "local": local_chunks,
+        "web": web_chunks
+    }
