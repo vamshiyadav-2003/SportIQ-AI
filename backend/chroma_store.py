@@ -26,9 +26,26 @@ EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "sentence-transformers/all-MiniLM
 COLLECTION_NAME = "sports_quiz_database"
 
 _client = chromadb.PersistentClient(path=CHROMA_PATH)
-_embedding_fn = embedding_functions.SentenceTransformerEmbeddingFunction(
-    model_name=EMBEDDING_MODEL
-)
+
+# Hybrid Embedding Function:
+# - On Render (Production): Use HuggingFace Serverless API to avoid OOM (Out Of Memory) errors.
+# - In local development (Offline sandbox): Fall back to local SentenceTransformer.
+_embedding_fn = None
+if not os.getenv("RENDER"):
+    try:
+        from chromadb.utils.embedding_functions import SentenceTransformerEmbeddingFunction
+        _embedding_fn = SentenceTransformerEmbeddingFunction(model_name=EMBEDDING_MODEL)
+        print("[chroma_store] Using local SentenceTransformer (offline sandbox fallback).")
+    except ImportError:
+        pass
+
+if _embedding_fn is None:
+    hf_token = os.getenv("HF_API_KEY", "")
+    _embedding_fn = embedding_functions.HuggingFaceEmbeddingFunction(
+        api_key=hf_token if hf_token else None,
+        model_name=EMBEDDING_MODEL
+    )
+    print("[chroma_store] Using HuggingFace Serverless API embedding function.")
 
 
 def _chunk_text(text: str, chunk_size: int = 500, overlap: int = 50):
