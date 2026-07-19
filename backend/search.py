@@ -17,7 +17,7 @@ load_dotenv()
 TAVILY_API_KEY = os.getenv("TAVILY_API_KEY", "")
 
 
-def web_search_snippets(sport: str, difficulty: str, max_results: int = 4):
+def web_search_snippets(sport: str, difficulty: str, max_results: int = 2):
     """
     Search the web for recent info about a sport and return a list of
     short text snippets that can be appended to the RAG context.
@@ -30,7 +30,7 @@ def web_search_snippets(sport: str, difficulty: str, max_results: int = 4):
         from tavily import TavilyClient
 
         client = TavilyClient(api_key=TAVILY_API_KEY)
-        query = f"latest {sport} records, statistics and results relevant to a {difficulty} difficulty quiz"
+        query = f"latest {sport} records statistics {difficulty} quiz"
 
         response = client.search(query=query, max_results=max_results, search_depth="basic")
 
@@ -38,7 +38,7 @@ def web_search_snippets(sport: str, difficulty: str, max_results: int = 4):
         for result in response.get("results", []):
             content = result.get("content", "").strip()
             if content:
-                snippets.append(content[:600])  # keep snippets short
+                snippets.append(content[:300])  # keep snippets short
 
         return snippets
 

@@ -22,7 +22,7 @@ export default function Dashboard() {
       setShowSources(true); // Open sources panel by default
       setActiveTab("local");
     } catch (err) {
-      const detail = err?.response?.data?.detail || "Something went wrong while generating the quiz.";
+      const detail = err?.message || err?.response?.data?.detail || "Something went wrong while generating the quiz.";
       setError(detail);
     } finally {
       setLoading(false);

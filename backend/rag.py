@@ -14,7 +14,7 @@ from search import web_search_snippets
 def get_rag_context(sport: str, difficulty: str) -> dict:
     query = f"{sport} facts records statistics {difficulty} quiz questions"
 
-    local_chunks = retrieve_context(sport=sport, query=query, n_results=5)
+    local_chunks = retrieve_context(sport=sport, query=query, n_results=3)
     web_chunks = web_search_snippets(sport=sport, difficulty=difficulty)
 
     combined = local_chunks + web_chunks

@@ -24,16 +24,21 @@ CHROMA_PATH = os.getenv("CHROMA_DB_PATH", "./chroma_store")
 
 COLLECTION_NAME = "sports_quiz_database"
 
-# Use ChromaDB's built-in DefaultEmbeddingFunction (ONNX-based all-MiniLM-L6-v2).
-# This runs locally with ~50MB RAM — well within Render Free tier's 512MB limit.
-# No PyTorch, no external API calls, no network dependency during startup.
-_client = chromadb.PersistentClient(path=CHROMA_PATH)
-_embedding_fn = DefaultEmbeddingFunction()
-print("[chroma_store] Using ChromaDB DefaultEmbeddingFunction (ONNX, local, no network required).")
+# Instant local store backed by /data text files
+def get_collection():
+    """Returns local store handle."""
+    return None
+
+
+def build_index_if_needed():
+    """Verify local text knowledge base files exist in /data."""
+    txt_files = list(DATA_DIR.glob("*.txt"))
+    print(f"[chroma_store] Local knowledge base active with {len(txt_files)} text files in /data.")
+    return None
 
 
 def _chunk_text(text: str, chunk_size: int = 500, overlap: int = 50):
-    """Very simple sliding-window chunker. Good enough for small .txt files."""
+    """Simple sliding-window chunker for local text files."""
     chunks = []
     start = 0
     while start < len(text):
@@ -43,61 +48,35 @@ def _chunk_text(text: str, chunk_size: int = 500, overlap: int = 50):
     return [c.strip() for c in chunks if c.strip()]
 
 
-def get_collection():
-    """Get (or create) the sports_quiz_database collection."""
-    return _client.get_or_create_collection(
-        name=COLLECTION_NAME, embedding_function=_embedding_fn
-    )
+def retrieve_local_file_context(sport: str, n_results: int = 3) -> list[str]:
+    """Instant local file retriever that reads directly from /data/{sport}.txt."""
+    sport_clean = sport.lower().strip()
+    file_path = DATA_DIR / f"{sport_clean}.txt"
+    
+    if not file_path.exists():
+        # search for any matching file stem
+        matching = [f for f in DATA_DIR.glob("*.txt") if sport_clean in f.stem.lower() or f.stem.lower() in sport_clean]
+        if matching:
+            file_path = matching[0]
+
+    if file_path.exists():
+        try:
+            raw_text = file_path.read_text(encoding="utf-8")
+            chunks = _chunk_text(raw_text)
+            if len(chunks) <= n_results:
+                return chunks
+            import random
+            return random.sample(chunks, n_results)
+        except Exception as e:
+            print(f"[chroma_store] Error reading {file_path}: {e}")
+            
+    return []
 
 
-def build_index_if_needed():
+def retrieve_context(sport: str, query: str, n_results: int = 3):
     """
-    On first run, read every .txt file in /data and load it into Chroma.
-    If the collection already has documents, skip re-indexing.
+    Returns instant context from local data text files (/data/<sport>.txt).
+    Fast, reliable, 0MB network download required.
     """
-    collection = get_collection()
-    if collection.count() > 0:
-        print(f"[chroma_store] Collection already has {collection.count()} chunks, skipping rebuild.")
-        return collection
+    return retrieve_local_file_context(sport=sport, n_results=n_results)
 
-    print("[chroma_store] Building vector index from /data ...")
-    doc_id = 0
-    for file_path in DATA_DIR.glob("*.txt"):
-        sport = file_path.stem.lower()
-        raw_text = file_path.read_text(encoding="utf-8")
-
-        for chunk in _chunk_text(raw_text):
-            collection.add(
-                ids=[f"{sport}-{doc_id}"],
-                documents=[chunk],
-                metadatas=[{"sport": sport}],
-            )
-            doc_id += 1
-
-    print(f"[chroma_store] Indexed {doc_id} chunks across {len(list(DATA_DIR.glob('*.txt')))} files.")
-    return collection
-
-
-def retrieve_context(sport: str, query: str, n_results: int = 5):
-    """
-    Run a similarity search scoped to the requested sport.
-    Falls back to an unfiltered search if nothing matches the sport filter
-    (e.g. sport name in the file doesn't exactly match the dropdown value).
-    """
-    collection = get_collection()
-    sport = sport.lower().strip()
-
-    results = collection.query(
-        query_texts=[query],
-        n_results=n_results,
-        where={"sport": sport},
-    )
-
-    documents = results.get("documents", [[]])[0]
-
-    if not documents:
-        # fallback: no metadata filter
-        results = collection.query(query_texts=[query], n_results=n_results)
-        documents = results.get("documents", [[]])[0]
-
-    return documents
