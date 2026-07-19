@@ -14,57 +14,22 @@ import os
 from pathlib import Path
 
 import chromadb
-from chromadb.api.types import Documents, Embeddings, EmbeddingFunction
+from chromadb.utils.embedding_functions import DefaultEmbeddingFunction
 from dotenv import load_dotenv
 
 load_dotenv()
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 CHROMA_PATH = os.getenv("CHROMA_DB_PATH", "./chroma_store")
-EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "sentence-transformers/all-MiniLM-L6-v2")
 
 COLLECTION_NAME = "sports_quiz_database"
 
-class HuggingFaceServerlessEmbeddings(EmbeddingFunction):
-    def __init__(self, api_key: str = None, model_name: str = "sentence-transformers/all-MiniLM-L6-v2"):
-        self.model_name = model_name
-        self.api_url = f"https://router.huggingface.co/pipeline/feature-extraction/{model_name}"
-        self.headers = {}
-        if api_key:
-            self.headers["Authorization"] = f"Bearer {api_key}"
-
-    def __call__(self, input: Documents) -> Embeddings:
-        import requests
-        response = requests.post(
-            self.api_url,
-            headers=self.headers,
-            json={"inputs": input, "options": {"wait_for_model": True}}
-        )
-        if response.status_code != 200:
-            raise ValueError(f"Hugging Face API returned error ({response.status_code}): {response.text}")
-        return response.json()
-
+# Use ChromaDB's built-in DefaultEmbeddingFunction (ONNX-based all-MiniLM-L6-v2).
+# This runs locally with ~50MB RAM — well within Render Free tier's 512MB limit.
+# No PyTorch, no external API calls, no network dependency during startup.
 _client = chromadb.PersistentClient(path=CHROMA_PATH)
-
-# Hybrid Embedding Function:
-# - On Render (Production): Use HuggingFace Serverless API to avoid OOM (Out Of Memory) errors.
-# - In local development (Offline sandbox): Fall back to local SentenceTransformer.
-_embedding_fn = None
-if not os.getenv("RENDER"):
-    try:
-        from chromadb.utils.embedding_functions import SentenceTransformerEmbeddingFunction
-        _embedding_fn = SentenceTransformerEmbeddingFunction(model_name=EMBEDDING_MODEL)
-        print("[chroma_store] Using local SentenceTransformer (offline sandbox fallback).")
-    except ImportError:
-        pass
-
-if _embedding_fn is None:
-    hf_token = os.getenv("HF_API_KEY", "")
-    _embedding_fn = HuggingFaceServerlessEmbeddings(
-        api_key=hf_token if hf_token else None,
-        model_name=EMBEDDING_MODEL
-    )
-    print("[chroma_store] Using HuggingFace Serverless API embedding function (router.huggingface.co).")
+_embedding_fn = DefaultEmbeddingFunction()
+print("[chroma_store] Using ChromaDB DefaultEmbeddingFunction (ONNX, local, no network required).")
 
 
 def _chunk_text(text: str, chunk_size: int = 500, overlap: int = 50):
