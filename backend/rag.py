@@ -7,17 +7,14 @@ The actual Retrieval-Augmented Generation pipeline:
 3. merge them into a single context list that gets handed to the LLM
 """
 
-from chroma_store import retrieve_context
-from search import web_search_snippets
+from chroma_store import retrieve_local_file_context
 
 
 def get_rag_context(sport: str, difficulty: str) -> dict:
-    query = f"{sport} facts records statistics {difficulty} quiz questions"
+    local_chunks = retrieve_local_file_context(sport=sport, n_results=3)
+    web_chunks = []
 
-    local_chunks = retrieve_context(sport=sport, query=query, n_results=3)
-    web_chunks = web_search_snippets(sport=sport, difficulty=difficulty)
-
-    combined = local_chunks + web_chunks
+    combined = local_chunks
 
     if not combined:
         combined = [
