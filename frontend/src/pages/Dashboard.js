@@ -297,12 +297,7 @@ export default function Dashboard() {
       )}
 
       <footer className="app-footer">
-        <p>© 2026 SportIQ AI. All rights reserved.</p>
-        <div className="footer-links">
-          <span>Real-Life Interactive Game</span>
-          <span className="footer-dot">•</span>
-          <span>Fast RAG Pipeline v1.2</span>
-        </div>
+        <p>© 2026 VMC</p>
       </footer>
     </div>
   );
