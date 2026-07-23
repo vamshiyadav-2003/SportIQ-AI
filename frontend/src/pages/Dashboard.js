@@ -23,7 +23,6 @@ export default function Dashboard() {
   const [timeLeft, setTimeLeft] = useState(60);
   const [timerActive, setTimerActive] = useState(false);
   const [showConfetti, setShowConfetti] = useState(false);
-  const [copied, setCopied] = useState(false);
 
   // Timer countdown hook
   useEffect(() => {
@@ -121,12 +120,7 @@ export default function Dashboard() {
     setTimerActive(true);
   };
 
-  const handleShareScore = () => {
-    const text = `I scored ${score}/${totalQuestions} on the ${difficulty} ${sport} quiz in SportIQ AI! 🏆 Can you beat me? Try it here: ${window.location.origin}`;
-    navigator.clipboard.writeText(text);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
-  };
+
 
   const totalQuestions = quiz?.questions?.length || 0;
   const answeredCount = Object.keys(userAnswers).length;
@@ -224,19 +218,7 @@ export default function Dashboard() {
         </div>
       )}
 
-      {quiz && answeredCount === totalQuestions && (
-        <div className="completion-card animate-fadeIn">
-          <div className="badge-display">
-            {score === 5 && <span className="rank-badge gold">🏅 Perfect Genius (Gold)</span>}
-            {score === 4 && <span className="rank-badge silver">🥈 Sports Pro (Silver)</span>}
-            {score === 3 && <span className="rank-badge bronze">🥉 Sports Fan (Bronze)</span>}
-            {score < 3 && <span className="rank-badge rookie">🌱 Rookie (Practice more!)</span>}
-          </div>
-          <button className="share-btn" onClick={handleShareScore}>
-            {copied ? "✓ Copied to Clipboard!" : "🔗 Share Your Score"}
-          </button>
-        </div>
-      )}
+
 
       {quiz && (
         <div className="quiz-list">
