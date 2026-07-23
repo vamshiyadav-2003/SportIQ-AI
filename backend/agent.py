@@ -20,8 +20,8 @@ from rag import get_rag_context
 
 load_dotenv()
 
-PRIMARY_MODEL = os.getenv("GROQ_MODEL", "llama-3.1-8b-instant")
-FALLBACK_MODELS = ["llama-3.3-70b-versatile", "llama3-8b-8192", "mixtral-8x7b-32768"]
+PRIMARY_MODEL = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
+FALLBACK_MODELS = ["llama-3.1-8b-instant", "llama3-8b-8192", "mixtral-8x7b-32768"]
 
 
 def get_groq_client():
@@ -42,6 +42,19 @@ def _strip_code_fences(text: str) -> str:
     if json_match:
         return json_match.group(1).strip()
     return text
+
+
+def _extract_partial_questions(text: str) -> list:
+    """Extracts valid individual question objects from a truncated JSON string."""
+    pattern = r'\{\s*"question"\s*:\s*".*?"\s*,\s*"options"\s*:\s*\{.*?\}\s*,\s*"answer"\s*:\s*".*?"\s*,\s*"explanation"\s*:\s*".*?"\s*\}'
+    matches = re.findall(pattern, text, re.DOTALL)
+    results = []
+    for m in matches:
+        try:
+            results.append(json.loads(m))
+        except Exception:
+            pass
+    return results
 
 
 def _call_groq_with_fallback(messages: list, client: Groq) -> str:
@@ -88,10 +101,25 @@ def generate_quiz(sport: str, difficulty: str) -> dict:
     raw_text = _call_groq_with_fallback(messages, client)
     cleaned = _strip_code_fences(raw_text)
 
+    quiz_json = None
     try:
         quiz_json = json.loads(cleaned)
-    except json.JSONDecodeError as e:
-        raise ValueError(f"AI response could not be parsed as JSON: {raw_text[:250]}...") from e
+    except json.JSONDecodeError:
+        extracted = _extract_partial_questions(cleaned)
+        if extracted and len(extracted) > 0:
+            quiz_json = {"questions": extracted}
+        else:
+            try:
+                raw_retry = client.chat.completions.create(
+                    model="llama-3.3-70b-versatile",
+                    messages=messages,
+                    temperature=0.3,
+                    max_tokens=2500,
+                    response_format={"type": "json_object"},
+                ).choices[0].message.content
+                quiz_json = json.loads(_strip_code_fences(raw_retry))
+            except Exception as e:
+                raise ValueError(f"Model did not return valid JSON: {cleaned[:150]}...") from e
 
     # Validation and formatting
     quiz_json["sport"] = sport
