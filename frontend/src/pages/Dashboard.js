@@ -19,12 +19,7 @@ export default function Dashboard() {
   const [historyList, setHistoryList] = useState([]);
   const [loadingHistory, setLoadingHistory] = useState(false);
 
-  // System status
-  const [systemStatus, setSystemStatus] = useState(null);
 
-  useEffect(() => {
-    checkHealth().then((res) => setSystemStatus(res));
-  }, []);
 
   const handleGenerate = async () => {
     setLoading(true);
@@ -92,17 +87,7 @@ export default function Dashboard() {
         <h1>SportIQ AI</h1>
         <p>Interactive Sports Quiz Engine with Real-Time Grounding</p>
 
-        {systemStatus && (
-          <div className="system-pill">
-            <span className={`status-dot ${systemStatus.status === "ok" ? "online" : "offline"}`}></span>
-            Backend: {systemStatus.status === "ok" ? "Connected" : "Offline"}
-            {systemStatus.vector_store && (
-              <span className="vector-count">
-                | Knowledge Base: {systemStatus.vector_store.indexed_documents} chunks
-              </span>
-            )}
-          </div>
-        )}
+
       </header>
 
       <QuizControls
