@@ -71,7 +71,21 @@ def _save_to_history(sport: str, difficulty: str, questions: list):
 @app.on_event("startup")
 def on_startup():
     _init_db()
-    build_index_if_needed()
+    try:
+        build_index_if_needed()
+    except Exception as e:
+        print(f"[startup] Notice: ChromaDB vector store check deferred/failed: {e}")
+
+
+@app.get("/")
+def root():
+    return {
+        "status": "ok",
+        "service": "SportIQ AI Backend API",
+        "version": "1.0.0",
+        "health": "/health",
+        "docs": "/docs"
+    }
 
 
 @app.get("/health")

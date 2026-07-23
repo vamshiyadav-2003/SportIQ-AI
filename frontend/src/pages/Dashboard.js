@@ -9,8 +9,6 @@ export default function Dashboard() {
   const [quiz, setQuiz] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
-  const [showSources, setShowSources] = useState(false);
-  const [activeTab, setActiveTab] = useState("local");
 
   // Score state
   const [score, setScore] = useState(0);
@@ -38,8 +36,6 @@ export default function Dashboard() {
       const data = await generateQuiz(sport, difficulty);
       data.generatedAt = Date.now();
       setQuiz(data);
-      setShowSources(true);
-      setActiveTab("local");
     } catch (err) {
       const detail = err?.message || "Something went wrong while generating the quiz.";
       setError(detail);
@@ -150,64 +146,7 @@ export default function Dashboard() {
         </div>
       )}
 
-      {quiz && quiz.sources && (
-        <div className="sources-container">
-          <div className="sources-header" onClick={() => setShowSources(!showSources)}>
-            <h3>
-              <span>🔍 Grounding Sources / RAG Context</span>
-              <span className="toggle-icon">{showSources ? "▲" : "▼"}</span>
-            </h3>
-            <p>See the vector store facts and web search snippets used for this quiz.</p>
-          </div>
 
-          {showSources && (
-            <div className="sources-tabs-container">
-              <div className="sources-tabs">
-                <button
-                  className={`tab-btn ${activeTab === "local" ? "active" : ""}`}
-                  onClick={() => setActiveTab("local")}
-                >
-                  📖 ChromaDB Vector Base ({quiz.sources.local ? quiz.sources.local.length : 0})
-                </button>
-                <button
-                  className={`tab-btn ${activeTab === "web" ? "active" : ""}`}
-                  onClick={() => setActiveTab("web")}
-                >
-                  🌐 Live Web Snippets ({quiz.sources.web ? quiz.sources.web.length : 0})
-                </button>
-              </div>
-
-              <div className="tab-content">
-                {activeTab === "local" ? (
-                  <ul className="sources-list">
-                    {quiz.sources.local && quiz.sources.local.length > 0 ? (
-                      quiz.sources.local.map((src, idx) => (
-                        <li key={idx} className="source-item">
-                          {src}
-                        </li>
-                      ))
-                    ) : (
-                      <li className="no-sources">No local facts retrieved for this query.</li>
-                    )}
-                  </ul>
-                ) : (
-                  <ul className="sources-list">
-                    {quiz.sources.web && quiz.sources.web.length > 0 ? (
-                      quiz.sources.web.map((src, idx) => (
-                        <li key={idx} className="source-item">
-                          {src}
-                        </li>
-                      ))
-                    ) : (
-                      <li className="no-sources">No web snippets retrieved.</li>
-                    )}
-                  </ul>
-                )}
-              </div>
-            </div>
-          )}
-        </div>
-      )}
 
       {quiz && (
         <div className="quiz-list">

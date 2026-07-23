@@ -20,11 +20,15 @@ from rag import get_rag_context
 
 load_dotenv()
 
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
 PRIMARY_MODEL = os.getenv("GROQ_MODEL", "llama-3.1-8b-instant")
 FALLBACK_MODELS = ["llama-3.3-70b-versatile", "llama3-8b-8192", "mixtral-8x7b-32768"]
 
-_client = Groq(api_key=GROQ_API_KEY) if GROQ_API_KEY and GROQ_API_KEY != "your_groq_api_key_here" else None
+
+def get_groq_client():
+    api_key = os.getenv("GROQ_API_KEY", "").strip()
+    if not api_key or api_key == "your_groq_api_key_here":
+        return None
+    return Groq(api_key=api_key)
 
 
 def _strip_code_fences(text: str) -> str:
@@ -40,14 +44,15 @@ def _strip_code_fences(text: str) -> str:
     return text
 
 
-def _call_groq_with_fallback(messages: list) -> str:
+def _call_groq_with_fallback(messages: list, client: Groq) -> str:
     """Invokes Groq completion trying primary model then fallbacks."""
-    models_to_try = [PRIMARY_MODEL] + [m for m in FALLBACK_MODELS if m != PRIMARY_MODEL]
+    primary_model = os.getenv("GROQ_MODEL", PRIMARY_MODEL)
+    models_to_try = [primary_model] + [m for m in FALLBACK_MODELS if m != primary_model]
     last_err = None
 
     for model in models_to_try:
         try:
-            completion = _client.chat.completions.create(
+            completion = client.chat.completions.create(
                 model=model,
                 messages=messages,
                 temperature=0.6,
@@ -64,7 +69,8 @@ def _call_groq_with_fallback(messages: list) -> str:
 
 
 def generate_quiz(sport: str, difficulty: str) -> dict:
-    if _client is None:
+    client = get_groq_client()
+    if client is None:
         raise RuntimeError(
             "GROQ_API_KEY is not configured. Please set a valid GROQ_API_KEY in backend/.env file."
         )
@@ -78,7 +84,7 @@ def generate_quiz(sport: str, difficulty: str) -> dict:
         {"role": "user", "content": user_prompt},
     ]
 
-    raw_text = _call_groq_with_fallback(messages)
+    raw_text = _call_groq_with_fallback(messages, client)
     cleaned = _strip_code_fences(raw_text)
 
     try:

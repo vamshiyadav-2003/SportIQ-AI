@@ -18,16 +18,26 @@ load_dotenv()
 # Silence ChromaDB telemetry
 os.environ["ANONYMIZED_TELEMETRY"] = "False"
 
+# Override sqlite3 for compatibility with older sqlite3 versions (e.g. on Render Linux)
+try:
+    __import__('pysqlite3')
+    import sys
+    sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+except ImportError:
+    pass
+
 import chromadb
 from chromadb.config import Settings
 
 # Silence internal Chroma telemetry events dynamically without triggering IDE linter import errors
 _posthog = sys.modules.get("posthog")
 if _posthog and hasattr(_posthog, "capture"):
-    setattr(_posthog, "capture", lambda *args, **kwargs: None)
+    def _noop_capture(*args, **kwargs):
+        pass
+    setattr(_posthog, "capture", _noop_capture)
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
-CHROMA_PATH = str(Path(__file__).resolve().parent / "chroma_store")
+CHROMA_PATH = os.getenv("CHROMA_DB_PATH", str(Path(__file__).resolve().parent / "chroma_store"))
 COLLECTION_NAME = "sports_quiz_database"
 
 _client = None
@@ -47,7 +57,9 @@ def get_client():
         # Patch capture on client load if posthog was loaded by chromadb
         _ph = sys.modules.get("posthog")
         if _ph and hasattr(_ph, "capture"):
-            setattr(_ph, "capture", lambda *args, **kwargs: None)
+            def _noop_capture(*args, **kwargs):
+                pass
+            setattr(_ph, "capture", _noop_capture)
 
     return _client
 
