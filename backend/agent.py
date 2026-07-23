@@ -56,7 +56,8 @@ def _call_groq_with_fallback(messages: list, client: Groq) -> str:
                 model=model,
                 messages=messages,
                 temperature=0.6,
-                max_tokens=1500,
+                max_tokens=2500,
+                response_format={"type": "json_object"},
             )
             content = completion.choices[0].message.content
             if content and content.strip():

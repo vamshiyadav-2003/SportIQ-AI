@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import QuizControls from "../components/QuizControls";
 import QuizCard from "../components/QuizCard";
-import { generateQuiz, getQuizHistory, checkHealth } from "../api";
+import { generateQuiz, getQuizHistory } from "../api";
 
 export default function Dashboard() {
   const [sport, setSport] = useState("Cricket");
