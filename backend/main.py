@@ -22,7 +22,6 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
 from agent import generate_quiz
-from chroma_store import get_collection
 
 app = FastAPI(title="SportIQ AI", version="1.0.0")
 
@@ -88,20 +87,11 @@ def root():
 @app.get("/health")
 def health():
     db_ok = DB_PATH.exists()
-    doc_count = 0
-    try:
-        collection = get_collection()
-        if collection:
-            doc_count = collection.count()
-    except Exception:
-        pass
-
     return {
         "status": "ok",
         "database": "connected" if db_ok else "initialized",
         "vector_store": {
-            "indexed_documents": doc_count,
-            "status": "active" if doc_count > 0 else "fallback_mode"
+            "status": "disabled"
         }
     }
 
