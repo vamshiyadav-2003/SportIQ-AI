@@ -22,7 +22,7 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
 from agent import generate_quiz
-from chroma_store import build_index_if_needed, get_collection
+from chroma_store import get_collection
 
 app = FastAPI(title="SportIQ AI", version="1.0.0")
 
@@ -71,10 +71,7 @@ def _save_to_history(sport: str, difficulty: str, questions: list):
 @app.on_event("startup")
 def on_startup():
     _init_db()
-    try:
-        build_index_if_needed()
-    except Exception as e:
-        print(f"[startup] Notice: ChromaDB vector store check deferred/failed: {e}")
+    # Note: ChromaDB vector store indexing deferred since we now retrieve local text chunks directly for ultra-fast speed.
 
 
 @app.get("/")
