@@ -155,9 +155,6 @@ export default function Dashboard() {
       {renderConfetti()}
 
       <header className="app-header">
-        <div className="header-badge">
-          <span>AI POWERED RAG</span>
-        </div>
         <h1>SportIQ AI</h1>
         <p>Interactive Sports Quiz Engine with Real-Time Grounding</p>
       </header>
